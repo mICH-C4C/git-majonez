@@ -36,4 +36,10 @@
    36  git checkout master 
    37  git branch 
    38  git merge cs 
-   39  history > history.txt
+   39  git status
+   40  vim main.cpp 
+   41  git status 
+   42  git add main.cpp 
+   43  git commit 
+   44  history > history.txt
+
