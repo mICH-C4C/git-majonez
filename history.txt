@@ -1,0 +1,39 @@
+    1  ls
+    2  mkdir git-majonez
+    3  ls
+    4  cd git-majonez/
+    5  git init
+    6  touch main.cpp
+    7  cat main.cpp 
+    8  vim main.cpp 
+    9  git status 
+   10  git add main.cpp 
+   11  git commit -m"initial commit"
+   12  git log
+   13  vim main.cpp 
+   14  git status 
+   15  git log
+   16  cat main.cpp 
+   17  git add .
+   18  git commit -m"Farewell changed"
+   19  git log 
+   20  git remote add origin https://github.com/mICH-C4C/git-majonez.git
+   21  git status
+   22  git log
+   23  git branch -a
+   24  git push -u origin master 
+   25  git status
+   26  git log
+   27  git checkout -b cs
+   28  git branch 
+   29  git reset --hard HEAD^
+   30  git log
+   31  git branch 
+   32  vim main.cpp 
+   33  git add .
+   34  git commit -m"Greetings"
+   35  git push origin cs 
+   36  git checkout master 
+   37  git branch 
+   38  git merge cs 
+   39  history > history.txt
