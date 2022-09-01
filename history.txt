@@ -1,0 +1,25 @@
+  574  cd git-majonez/
+  575  git init 
+  576  touch main.cpp
+  577  vim main.cpp 
+  578  git add main.cpp 
+  579  git commit -m"initial commit"
+  580  vim main.cpp 
+  581  git add main.cpp 
+  582  git commit -m"Ferewell changed"
+  583  git remote add origin https://github.com/mICH-C4C/git-majonez.git
+  584  git push -u origin master
+  585  git checkout -b cs
+  586  git log 
+  587  git reset --hard 1227406616a68800b43187bba9e484d094f3ab58 
+  588  git log 
+  589  vim main.cpp 
+  590  git add main.cpp 
+  591  git commit -m"Greetings"
+  592  git checkout -
+  593  git push origin cs
+  594  git merge cs
+  595  vim main.cpp 
+  596  git add main.cpp 
+  597  git commit 
+  598  history | tail -n25 > history.txt
